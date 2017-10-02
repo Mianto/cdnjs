@@ -12,7 +12,7 @@
     "ecommerce",
     "BuyButton.js"
   ],
-  "autoupdate : {
+  "autoupdate" : {
     "source": "git",
     "target": "git@github.com:Shopify/buy-button-js.git",
     "fileMap": [
