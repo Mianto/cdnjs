@@ -1,0 +1,28 @@
+{
+  "name": "@shopify/buy-button-js",
+  "filename": "buybutton.js",
+  "version": "0.4.13",
+  "description": "BuyButton.js allows merchants to build Shopify interfaces into any website",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Shopify/buy-button-js.git"
+  },
+  "author": "Shopify Inc.",
+  "keywords": [
+    "ecommerce",
+    "BuyButton.js"
+  ],
+  "autoupdate" : {
+    "source": "git",
+    "target": "git@github.com:Shopify/buy-button-js.git",
+    "fileMap": [
+      {
+        "basePath": "src",
+        "files": [
+          "buybutton.js"
+        ]
+      }
+    ]
+  },
+  "license": "MIT"
+}
